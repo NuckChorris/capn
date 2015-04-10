@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+ - 2.0.0
+ - 2.1.5
+ - 2.2.1
+ - jruby-9.0.0.0.pre1
+script: bundle exec rake test
